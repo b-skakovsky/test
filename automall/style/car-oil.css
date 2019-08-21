@@ -1,0 +1,59 @@
+.car-oil-title h2{
+	line-height: 42px;
+	font-size: 28px;
+	color: #000000;
+	margin: 50px 0 30px 0;
+}
+.car-oil-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.car-oil-wrapper-item{
+	display: flex;
+	flex-wrap: wrap;
+}
+.car-oil-item{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 195px;
+	height: 200px;
+	background: #FFFFFF;
+	margin: 0 25px 25px 0;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.car-oil-item a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.car-oil-item img{
+	margin-top: 15px;
+}
+.car-oil-item p{
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 0;
+	color: #000000;
+	font-family: 'DINPro-Medium';
+}
+@media only screen and (max-width: 560px){
+	.car-oil-wrapper{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.car-oil-wrapper-item{
+		justify-content: center;
+	}
+	.sidebar-news{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

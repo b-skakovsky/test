@@ -1,0 +1,136 @@
+.contact-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.contact-title{
+	line-height: 45px;
+	font-size: 28px;
+	margin: 50px 0 0 0;
+	color: #000000;
+}
+.contact-wrapper{
+	margin: 30px 0 0 0;
+}
+.contact-main-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact-main{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+}
+.contact-main-item{
+	padding: 30px 30px;
+	width: 355px;
+	background: #ffffff;
+	border: 1px solid #F59300;
+}
+.contact-main-item h2{
+	line-height: normal;
+	font-size: 18px;
+	color: #000000;
+	font-family: 'DINPro-Medium';
+}
+.contact-main-item p{
+	line-height: normal;
+	font-size: 14px;
+
+	color: #000000;
+	margin: 30px 0;
+	opacity: 0.5;
+}
+.phone-info-header h2 {
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	margin-right: 65px;
+}
+.contact-button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.contact-button a{
+	width: 165px;
+	height: 50px;
+	font-family: 'DINPro-Medium';
+	line-height: normal;
+	font-size: 16px;
+	text-align: center;
+	color: #F59300;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #F59300;
+	text-decoration: none;
+}
+.contact-button a.active-contact{
+	background: #F59300;
+	color: #ffffff;
+}
+.title-maps h2{
+	line-height: 45px;
+	font-size: 28px;
+	margin: 50px  0 30px 0; 
+	color: #000000;
+}
+.baskets-katalog-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.maps-info{
+	background: url(../image/maps.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	background-size: cover;
+}
+.maps{
+	margin-bottom: 30px;
+}
+.contact-sidebar{
+	margin: 0 0 0 30px;
+}
+@media only screen and (max-width: 1200px){
+	.contact-main-wrapper{
+		flex-direction: column;
+	}
+	.contact-main-item{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 780px){
+	.contact-wrapper{
+		flex-direction: column;
+	}
+	.contact-sidebar{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 465px){
+	.contact-main-item{
+		width: 270px;
+	}
+	.contact-button{
+		flex-direction: column;
+	}
+	.contact-button a{
+		margin: 0 0 20px 0;	
+	}
+}
+@media only screen and (max-width: 320px){
+	.contact-main-item{
+		width: 230px;
+	}
+}
+
+.baskets-katalog-wrapper{
+	display: flex;
+	justify-content: space-between;
+}

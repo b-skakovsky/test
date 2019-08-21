@@ -1,0 +1,248 @@
+.modification-title h2{
+ line-height: 42px;
+ font-size: 28px;
+ color: #000000;
+ margin: 50px 0 30px 0;
+}
+.modification-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+}
+.modification-car{
+  display: flex;
+  align-items: center;
+}
+.car-type-engine{
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.modification-car-img{
+  background: #ffffff;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+  width: 195px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 30px 0 0;
+  flex-direction: column;
+  height: 200px;
+}
+.select-engine{
+  display: flex;
+  align-items: center;
+}
+.select-engine  input p{
+  opacity: 0.5;
+}
+.select-engine input:checked + label p {
+  opacity: 1;
+}
+/* The container */
+.select-chek {
+  display: block;
+  position: relative;
+  padding-left: 55px;
+  /* margin-bottom: 12px; */
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.select-chek input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 25px;
+  width: 25px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* On mouse-over, add a grey background color */
+/*.manufacturer-chek:hover input ~ .checkmark {
+  border: 1px solid red;
+  }*/
+  .select-chek  p{
+    opacity: 0.5;
+    font-size: 18px;
+    margin: 0 10px 0 0;
+  }
+  .select-chek input:checked + p {
+    opacity: 1;
+    font-family: 'DINPro-Medium';
+  }
+  /* When the checkbox is checked, add a blue background */
+  .select-chek input:checked ~ .checkmark  {
+    background-color: #F3F4F6;
+    border: 1px solid #F59300;
+  }
+
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .select-chek input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .select-chek .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #F59300;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .modification-type-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 810px;
+    background: #fff;
+    padding: 10px 30px;
+    margin: 0 0 10px 0;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+  }
+  .title-car-options h2{
+    line-height: 34px;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin: 0 0 30px 0;
+  }
+  .car-engine p{
+    font-family: 'DINPro-Medium';
+  }
+  .modification-type{
+    margin: 30px 0 0 0;
+  }
+  .modification-type-name{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+  }
+  .modification-type-name a{
+    font-size: 16px;
+    font-family: 'DINPro-Medium';
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s;
+  }
+  .modification-type-name a:hover{
+    color: #F59300;
+  }
+  .modification-type-name h2{
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: 'DINPro-Medium';
+    font-weight: normal;
+  }
+  .modification-type-name p{
+    font-size: 16px;
+  }
+  .modification-type-power {
+    text-align: center;
+  }
+  .modification-type-power h2{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+  }
+  .modification-type-power p{
+    line-height: 30px;
+    font-size: 16px;
+
+    color: #000000;
+  }
+  .modification-type-engine{
+    text-align: center;
+  }
+  .modification-type-engine h2{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+  }
+  .modification-type-engine p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+  }
+  .modification-type-transmission{
+    text-align: center;
+  }
+  .modification-type-transmission h2{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+  }
+  .modification-type-transmission p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+  }
+  @media only screen and (max-width: 1215px){
+    .modification-wrapper{
+      flex-direction: column;
+    }
+    .question-wrapper{
+      display: flex;
+      justify-content: space-around;
+    }
+    .modification-type-item{
+      justify-content: space-around;
+      width: 100%;
+      padding: 10px 0;
+    }
+  }
+  @media only screen and (max-width: 690px){
+    .modification-type-item{
+      flex-direction: column;
+
+    }
+    .modification-car{
+      flex-direction: column;
+
+    }
+    .modification-car-img{
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width: 660px){
+    .question-wrapper{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .title-car-options h2{
+      text-align: center;
+    }
+
+    .car-type-engine{
+      flex-direction: column;
+    }
+  }

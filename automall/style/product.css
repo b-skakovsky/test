@@ -1,0 +1,437 @@
+.product-wrapper{
+  display: flex;
+  margin: 50px 0 0 0;
+}
+.product-siderbar{
+  margin: 0 30px 0 0;
+}
+.product-price{
+  width: 270px;
+  background: #ffffff;
+  padding: 30px 20px;
+  font-family: 'DINPro-Medium';
+  font-size: 18px;
+}
+.product-price h2 img{
+  margin: 0 10px 0 0;
+}
+.product-price h2{
+  font-size: 18px;
+
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+.product-price input{
+  width: 80px;
+  height: 48px;
+  text-align: center;
+  color: #000000;
+  outline: none;
+  border: 1px solid #F3F4F6;
+  font-size: 16px;
+  margin: 15px 10px 0 0;
+}
+.product-price input[type="text"] {
+  color: #F59300;
+
+}
+.product-price button{
+  width: 50px;
+  height: 50px;
+  background: #F59300;
+  border: none;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.manufacturer{
+  width: 270px;
+  background: #ffffff;
+  padding: 30px 20px;
+  margin: 5px 0;
+}
+.manufacturer h2 img{
+  margin: 0 10px 0 0;
+}
+.manufacturer h2{
+  font-size: 18px;
+  font-family: 'DINPro-Medium';
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.manufacturer  input p{
+  opacity: 0.5;
+}
+.manufacturer input:checked + label p {
+  opacity: 1;
+}
+/* The container */
+.manufacturer-chek {
+  display: block;
+  padding-top: 4px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.manufacturer-chek input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #F5F5F6;
+}
+
+/* On mouse-over, add a grey background color */
+/*.manufacturer-chek:hover input ~ .checkmark {
+  border: 1px solid red;
+  }*/
+  .manufacturer-chek  p{
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  .manufacturer-chek input:checked + p {
+    opacity: 1;
+  }
+  /* When the checkbox is checked, add a blue background */
+  .manufacturer-chek input:checked ~ .checkmark  {
+    background-color: #F3F4F6;
+    border: 1px solid #F59300;
+  }
+
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .manufacturer-chek input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .manufacturer-chek .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #F59300;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .more-product{
+    margin: 0 0 0 35px;
+  }
+  .more-product a{
+    line-height: normal;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #F59300;
+    font-family: 'DINPro-Medium';
+  }
+  .type-engine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .engine-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    width: 195px;
+    padding: 10px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    margin: 0 20px 0 0;
+  }
+  .image-engine{
+    margin-bottom: 15px;
+  }
+  .name-product h2{line-height: 42px;font-size: 28px;color: #000000;margin: 30px 0;}
+  .product-setting{
+    display: flex;
+    margin: 0 0 30px 0;
+  }
+  .setting-popular{
+    width: 413px;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .setting-popular a img{
+    margin: 0 10px 0 10px;
+  }
+  .setting-popular a{
+    line-height: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+  }
+  .setting-popular a:hover{
+    color: #F59300;
+  }
+  .setting-view{
+    margin: 0 0 0 5px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .setting-view a{
+    margin: 0 0 0 10px;
+    text-decoration: none;
+
+    height: 50px;
+    font-size: 14px;
+    align-items: center;
+    padding: 0 10px;
+    color: #000000;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s;
+  }
+  .setting-view a:hover{
+    background: #F59300;
+  }
+  .setting-active a{
+    background: #F59300;
+  }
+  .setting-item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .setting-item{
+    background: #ffffff;
+    width: 260px;
+    margin: 10px 15px 10px 0;
+    padding: 0 0 20px 0;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  .setting-item-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .setting-item-img img{
+    width: 150px;
+    height: 150px;
+    margin: 30px 0 20px 0;
+  }
+  .setting-item h2{
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+  }
+  .setting-item p{
+    font-family: 'DINPro-Medium';
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+    padding: 0 20px;
+  }
+  .setting-item-baskets{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  .setting-item-baskets p{
+    line-height: 29px;
+    font-size: 18px;
+    color: #000000;
+  }
+  .setting-item-baskets a img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+  }
+
+  .setting-item-baskets a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    background: #F59300;
+    color: #ffffff;
+    font-family: 'DINPro-Medium';
+    /* margin: 20px 0 0 0; */
+    padding: 0 0 0 20px;
+  }
+  .assortment h2{
+    line-height: 42px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #000000;
+
+  }
+
+
+  .user-product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .user-item{
+    background: #ffffff;
+    width: 260px;
+    margin: 10px 15px 10px 0;
+    padding: 0 0 20px 0;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  .user-item-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-item-img img{
+    width: 150px;
+    height: 150px;
+    margin: 30px 0 20px 0;
+  }
+  .user-item h2{
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+  }
+  .user-item p{
+    font-family: 'DINPro-Medium';
+    line-height: 30px;
+    font-size: 16px;
+    color: #000000;
+    padding: 0 20px;
+  }
+  .user-item-baskets{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  .user-item-baskets p{
+    line-height: 29px;
+    font-size: 18px;
+    color: #000000;
+  }
+  .user-item-baskets a img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+  }
+
+  .user-item-baskets a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    background: #F59300;
+    color: #ffffff;
+    font-family: 'DINPro-Medium';
+    /* margin: 20px 0 0 0; */
+    padding: 0 0 0 20px;
+  }
+
+  @media only screen and (max-width: 1120px){
+    .product-setting{
+      flex-direction: column;
+    }
+    .setting-view{
+      margin: 15px 0 0px 0;
+      width: 413px;
+    }
+  }
+  @media only screen and (max-width: 960px){
+    .setting-item-wrapper{
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 880px){
+    .type-engine{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .engine-item {
+      margin: 0 20px 30px 0;
+    }
+  }
+  @media only screen and (max-width: 850px){
+    .product-setting{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .setting-view{
+      width: auto;
+      flex-direction: column;
+      margin: 0;
+    }
+    .setting-popular{
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
+    .setting-price-popular{
+      margin-bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 695px){
+    .product-setting{
+      flex-direction: column;
+    }
+    .setting-view{
+      margin: 10px 0;
+    }
+  }
+  @media only screen and (max-width: 660px){
+    .product-wrapper{
+      flex-direction: column;
+    }
+    .product-siderbar {
+      margin: 0 30px 0 0;
+      display: flex;
+      justify-content: center;
+    }
+    .setting-price-bottom{
+      margin: 30px 0;
+    }
+  }

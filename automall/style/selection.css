@@ -1,0 +1,67 @@
+.selection-wrapper ul li{
+	list-style-type: none;
+	position: relative;
+	margin: 0 0 0 15px;
+}
+.selection-wrapper ul li span{
+	position: absolute;
+	line-height: 34px;
+	font-size: 16px;
+	color: #F59300;
+	left: -15px;
+}
+.selection-wrapper ul li a{
+	text-decoration: none;
+	line-height: 34px;
+	font-size: 16px;
+
+	color: #000000;
+	transition: all 0.3s;
+	opacity: 0.5;
+}
+.selection-wrapper ul li a:hover{
+	color: #F59300;
+}
+.selection-title h2{
+	line-height: 42px;
+	font-size: 28px;
+	margin: 30px 0;
+	color: #000000;
+}
+.selection-wrapper{
+	flex-direction: column;
+	display: flex;
+	height: 660px;
+	width: 100%;
+}
+.selection-wrapper ul{
+	height: 659px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.selection-item{
+	display: flex;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 900px){
+	.selection-item{
+		flex-direction: column;
+	}
+	.sidebar-news{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 680px){
+	.selection-item{
+		flex-direction: column;
+	}
+	.selection-wrapper{
+		height: 931px;
+		justify-content: center;
+		align-items: center;
+	}
+}

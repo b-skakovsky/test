@@ -1,0 +1,69 @@
+.payment-wrapper{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.payment-title h2{
+	line-height: 42px;
+	font-size: 28px;
+	text-align: center;
+	color: #000000;
+	margin: 40px 0;
+}
+.payment-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 270px; 
+}
+.payment-img{
+	padding: 30px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #F59300;
+	box-sizing: border-box;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.payment-item p{
+	text-align: center;
+	line-height: 34px;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'DINPro-Medium';
+	color: #000000;
+}
+.payment-button{
+	margin: 0 auto;
+}
+.payment-button a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F59300;
+	height: 50px;
+	border: 1px solid #F59300;
+	width: 310px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'DINPro-Medium';
+	margin: 40px 0;
+	transition: all 0.3s;
+}
+.payment-button a:hover{
+	border: 1px solid #F59300;
+	background: none;
+	color: #F59300;
+}
+@media only screen and (max-width: 1150px){
+	.payment-wrapper{
+		justify-content: center;
+	}
+	.payment-item{
+		margin: 20px 20px;
+	}
+}

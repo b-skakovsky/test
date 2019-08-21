@@ -1,0 +1,297 @@
+.product-info{
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+}
+.product-desc{
+	display: flex;
+	align-items: center;
+}
+.product-mane h2{
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+.product-mane p{
+	font-size: 16px;
+	line-height: 27px;
+	color: rgba(0, 0, 0, 0.6);	
+}
+.product-info-item{
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-info-iteam{
+
+	display: flex;
+
+	flex-direction: column;
+}
+a.product-info{
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+}
+.product-desc{
+	display: flex;
+	align-items: center;
+}
+.product-mane h2{
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+.product-mane p{
+	font-size: 16px;
+	line-height: 27px;
+	color: rgba(0, 0, 0, 0.6);	
+}
+.product-info-item{
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-info-iteam{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+.product-info-iteam h2{
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.product-price{
+	display: flex;
+	align-items: center;
+}
+.product-car p{
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.product-vin p{
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.product-info-iteam h2{
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.product-price{
+	display: flex;
+}
+.product-car p{
+	font-size: 16px;
+	line-height: 24px;
+
+	color: rgba(0, 0, 0, 0.6);
+}
+.product-vin p{
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+a.product-info{
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+}
+.product-desc{
+	display: flex;
+	align-items: center;
+}
+.product-mane h2{
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+.product-mane p{
+	font-size: 16px;
+	line-height: 27px;
+	color: rgba(0, 0, 0, 0.6);	
+}
+.product-info-item{
+
+	display: flex;
+}
+.product-info-iteam{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	padding: 0 20px;
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.product-info-iteam h2{
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.6);
+	margin: 0 0 5px 0;
+}
+.product-price{
+	display: flex;
+	align-items: center;
+}
+.product-car p{
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.product-vin p{
+	font-size: 16px;
+	line-height: 24px;
+
+	color: rgba(0, 0, 0, 0.6);
+}
+p.product-car-price {
+	text-decoration-line: underline;
+	font-family: 'DINPro-Medium';
+	color: #F59300;
+}
+p.car-day{
+	text-decoration-line: underline;
+	font-family: 'DINPro-Medium';
+	color: #F59300;
+}
+.product-car{
+	margin: 0 80px 0 0;
+}
+.product-car-item{
+	background: #FFFFFF;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.product-car-item{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+.product-view-name p{
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: 'DINPro-Medium';
+}
+.product-view-name h2{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'DINPro-Medium';
+	color: #000000;
+	font-weight: normal;
+}
+.product-view-name{
+	padding: 20px 0 0 30px;
+}
+.car-view-name{
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px 30px;
+}
+.car-view-title {
+	display: flex;
+	margin: 0 90px 0 0;
+}
+.car-view-title p{
+	margin: 5px 90px 8px 0;
+	font-size: 14px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.car-view-info{
+	display: flex;
+	align-items: center;
+	margin: 0 0 15px 0;
+}
+p.car-name{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 123px 0 0;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: 'DINPro-Medium';
+}
+p.presence{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 70px 0 0;
+	color: #2AAB2F;
+	font-family: 'DINPro-Medium';
+} 
+p.day{
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'DINPro-Medium';
+	color: #000000;
+	margin: 0 130px 0 0;
+}
+p.price{
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'DINPro-Bold';
+	color: #000000;
+	margin: 0 30px 0 0;
+}
+.car-view-info a{
+	background: #F59300;
+	color: #ffffff;
+	font-family: 'DINPro-Bold';
+	height: 35px;
+	width: 115px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+@media only screen and (max-width: 1000px){
+	.product-info{
+		flex-direction: column;
+	}
+	.product-desc{
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.product-info-iteam{
+		border:none;
+	}
+	.product-info-item{
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 920px){
+	.car-view-title{
+		display: none;
+	}
+	.product-car-item{
+		flex-direction: column;
+	}
+	.product-view-name{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 780px){
+	.car-view-info{
+		flex-direction: column;
+	}
+	p.car-name{
+		margin: 0;
+	}
+	p.presence{
+		margin: 0;
+	}
+	p.day{
+		margin: 0;
+	}
+	p.price{
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 605px){
+	.product-info-item{
+		flex-direction: column;
+		align-items: center;
+
+	}
+}

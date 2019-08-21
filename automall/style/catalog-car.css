@@ -1,0 +1,122 @@
+.catalog-list{
+  font-size: 28px;
+  line-height: 42px;
+  font-family: 'DINPro-Medium';
+  color: #000000;
+  margin: 50px 0 35px 0;
+}
+.nested-item{
+  background: #FFFFFF;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 15px 0;
+}
+.nested-item:first-child{
+  margin: 35px 0 15px 0;
+}
+.nested-price a{
+  background: #F59300;
+  height: 50px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'DINPro-Bold';
+  text-decoration: none;
+  margin: 0 30px 0 0;
+}
+.nested-content{
+  margin: 0 0 0 -45px;
+}
+.nested-vin p{
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'DINPro-Medium';
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 50px 0 0;
+}
+.nested-name p{
+  font-size: 20px;
+  line-height: 45px;
+  font-family: 'DINPro-Medium';
+  color: #000000;
+}
+.nested-info{
+  display: flex;
+  align-items: center;
+}
+ul, #catalog-car {
+  list-style-type: none;
+}
+
+#catalog-car {
+  margin: 0 0px 0 0px;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  transition: all 0.5s;
+
+}
+li span.caret{
+  text-decoration: underline;
+  text-decoration-color: #F59300;
+  font-size: 20px;
+  line-height: 45px;
+
+  color: #000000;
+}
+.caret span{
+  font-size: 24px;
+  line-height: 54px;
+  color: #000000;
+}
+.active .red{
+  margin: 0 0 0 -30px;
+}
+.caret::before {
+  content: url(../image/Arrow.png);
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+  -ms-transform: rotate(0deg); 
+  -webkit-transform: rotate(0deg); 
+  transform: rotate(0deg);  
+  transition: all 0.5s;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg); 
+  transform: rotate(180deg);  
+}
+
+.nested {
+  display: none;
+}
+.activeList {
+  display: block;
+  margin: 0 0 0 15px;
+}
+@media only screen and (max-width: 730px){
+  .nested-item{
+    flex-direction: column;
+  }
+  .nested-info{
+    flex-direction: column;
+  }
+  .nested-price a{
+    margin: 0 0 20px 0;
+  }
+  .nested-vin p{
+    margin: 0;
+  }
+}
